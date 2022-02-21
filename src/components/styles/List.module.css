@@ -1,0 +1,21 @@
+.cont{
+    list-style: none;
+    margin-bottom: 30px;
+}
+.link{
+    text-align: center;
+    text-decoration: none;
+    display:flex;
+    flex-direction: column;
+}
+.title{
+    margin-top: 10px;
+    font-weight: 200;
+    font-size: calc(1em + .5vw);
+}
+
+@media ( max-width: 700px){
+    .poster{
+        height: calc(2em + 100vw);
+    }
+}
